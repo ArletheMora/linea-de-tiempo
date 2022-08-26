@@ -1,6 +1,6 @@
 *{
-    margin: 0%;
-    display:block
+    margin: 0;
+    
 }
 
 .gridPrincipal{
@@ -8,20 +8,32 @@
     height: 100%;
     width: 100%;
     display: grid;
-     grid-template-rows: 1fr, 1fr, 1fr; 
-    grid-template-areas: "header", "central", "footer"
+    align-items: center;
+    grid-template-rows: .20fr, .70fr, .1fr;  
+    grid-template-areas: "header"
+                         "central" 
+                         "footer"; 
+    
 }
 
 .header{
     grid-area: header;
     background-color: #231B42;
+    width: 100%;
 }
 
 .central{
     grid-area: central;
+    justify-content: center;
 }
 
 .footer{
     grid-area: "footer";
     background-color: #231B42;
 }
+
+.divImg, .info{
+    background-color: #E6E1CD;
+    height: 50px;
+}
+
