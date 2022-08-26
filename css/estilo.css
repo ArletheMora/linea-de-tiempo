@@ -1,0 +1,27 @@
+*{
+    margin: 0%;
+    display:block
+}
+
+.gridPrincipal{
+    background-color: #cde6d9;
+    height: 100%;
+    width: 100%;
+    display: grid;
+     grid-template-rows: 1fr, 1fr, 1fr; 
+    grid-template-areas: "header", "central", "footer"
+}
+
+.header{
+    grid-area: header;
+    background-color: #231B42;
+}
+
+.central{
+    grid-area: central;
+}
+
+.footer{
+    grid-area: "footer";
+    background-color: #231B42;
+}
