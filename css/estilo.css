@@ -29,7 +29,7 @@
     padding: 10px;
     display: flex;
     justify-content: space-between;
-    padding: 0 3% 0 3%;
+    padding: 0 8% 0 8%;
 }
 
 .footer{
@@ -52,10 +52,24 @@
     height: 500px;
     width: 500px;
     border: #231B42 5px solid;
-    display: inline-block;
+    /* display: inline-block; */
+    
+    justify-content: center;
 }
 
 .info{
-    width: 550px;
+    /* width: 550px; */
+    display:inline-flex;
+    align-items: center;
 }
 
+
+
+img{
+    width: 300px;
+    background-color: #E6E1CD;
+}
+
+h2, .info > p{
+    background-color: #E6E1CD;
+}
